@@ -16,7 +16,7 @@ from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
 import matplotlib as mpl
-from __future__ import print_function
+from __future__ import
 warnings.filterwarnings("ignore")
 import psycopg2
 from sqlalchemy import create_engine
@@ -194,7 +194,7 @@ plt.xticks(rotation=45)
 
 melbourne_df.groupby('Region')['Price'].mean()
 
-###################### Data preparation
+###################### Data preparation 
 
 #save as csv after cleaning
 melbourne_df.to_csv('melbourne.csv', index = False)
@@ -371,11 +371,7 @@ pd.DataFrame({"Prediction": y_pred, "Actual": y_test})
 
 import pickle
 # Saving model
-pickle.dump(model_tree, open('model.pkl','wb'))
-
-
-
-
+pickle.dump(model_tree, open('model.pkl','wb
 
 
 
