@@ -7,7 +7,7 @@ import seaborn as sns
 from datetime import datetime as dt
 import matplotlib.pyplot as plt
 from scipy import stats
-from scipy.stats import norm, skew
+from scipy.stats import norm
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error as mse
@@ -371,7 +371,13 @@ pd.DataFrame({"Prediction": y_pred, "Actual": y_test})
 
 import pickle
 # Saving model
-pickle.dump(model_tree, open('model.pkl','wb
+pickle.dump(model_tree, open('model.pkl','wb'))
+
+
+
+
+
+
 
 
 
